@@ -17,8 +17,11 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 
 1. Clone repo to disk
 2. Start jupyter
+
     2.1 As a variant it is possible to run docker container
+    ```
     docker run -d -p 8888:8888 -v ~/Documents/ML_Kaggle/kaggle_team_kernels:/opt playniuniu/jupyter-pandas
+    ```
 
     -v will map your local folder to container folder(/opt)
 
